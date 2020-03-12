@@ -1,0 +1,62 @@
+1 index.php : Cotains the basic outline page with login and signup tabs
+
+2 login.php : User enters his email and password, it is then checked by server.php to find wether the pair is correct and existing in the database, if it exists, prompt to home.php
+
+3 register.php : User can register, form validation is done there itself, checking the database in server.php
+
+4 server.php : Contains most of the data retrival from the database and checking the login credentials, forgot password, admin,....
+
+5 admin.php : Admin login form
+
+6 a_dashboard.php : Conatins user info, properties info, transaction info along with database operations in itself
+
+7 add.php : To add a property into the database
+
+8 book.php : verifies if the prop details key and password match and if they matches, changes prop status to sold and proceeds to success page
+
+9 buy.php : Owner and prop info is displayed if the user has to buy, he can contact the owner and get the secret key
+
+10 errors.php : To display if any errors like passwords do not match,.....
+
+11 forgot.php : If user forgets password, he can reset it by using the secret question and its corresponding answer
+
+12 home.php : All other property details are being displayed here
+
+13 pic.php : Profile picture
+
+14 profile.php : can check his properties
+
+15 property.php : To add a property, remove  the existing user property,.....
+
+16 search.php : Search property based on min max price and pincode
+
+17 success.php: shows the details of the transaction to be successfull
+
+https://www.php.net/manual/en/function.mysql-real-escape-string.php
+
+Drive link of file
+https://drive.google.com/open?id=1PVdBN8k4wsAMYVUknRVpHI4b8Al5cFMp
+
+1
+srikanth.cs.prash@gmail.com
+password: asdfghjkl
+security q: asusvivobook
+prop1 key :12345
+
+2
+vikas@gmail.com
+password: asdfghjkl
+security q: asusvivobook
+prop1 key :12345
+
+
+md5 for password and key cost encoding
+
+
+
+Admin details:
+srikanth.cs.prash@gmail.com
+asdfghjkl
+
+vikas@gmail.com
+asdfghjkl
